@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/Register.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    
+    <title>Реєстрація</title>
+</head>
+<body>
+  <header class="header">
+    <a href="/pages/index.html" class="logo">Electronic shop</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="/pages/index.html" >Main</a></li>
+        <li><a href="/pages/products.html">Our products</a></li>
+        <li class="dropdown">
+            <a href="#" class="active">Account</a>
+            <ul class="submenu">
+                <li><a href="/pages/login.html">Login</a></li>
+                <li><a href="/pages/Register.html" class="active">Register</a></li>
+            </ul>
+        </li>
+        <li><a href="/pages/quiz.html">Quiz</a></li>
+    </ul>
+</header>
+<section class="section">
+  <div class="container container--border container--big">
+      <div class="content">
+          <div class="content__title">
+              Register
+          </div>
+        <div class="content content__description">
+          <form class = "content__text">
+            <label class="registration__label" for="username">Ім'я користувача:</label>
+            <input class="registration__input" type="text" name="username" required>
+
+            <label class="registration__label" for="email">Електронна пошта:</label>
+            <input class="registration__input" type="email" name="email" required>
+
+            <label class="registration__label" for="password">Пароль (мінімум 6 символів):</label>
+            <div class="password-input-container">
+            <input class="registration__input" type="password" name="password" required minlength="6">
+            </div>
+
+            <label class="registration__label" for="confirm-password">Підтвердіть пароль:</label>
+            <input class="registration__input" type="password" name="confirm-password" required>
+
+            <button class="content__button button button__inner" type="submit">Зареєструватися</button>
+          </form>
+        </div>
+      </div>
+  </div>
+</section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Ваша компанія. Усі права захищені.</p>
+    </footer>
+</body>
+</html>

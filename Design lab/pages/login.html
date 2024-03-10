@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/Register.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    
+    <title>Login</title>
+</head>
+<body>
+  <header class="header">
+    <a href="/pages/index.html" class="logo">Electronic shop</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="/pages/index.html" >Main</a></li>
+        <li><a href="/pages/products.html">Our products</a></li>
+        <li class="dropdown">
+            <a href="#" class="active">Account</a>
+            <ul class="submenu">
+                <li><a href="/pages/login.html" class="active">Login</a></li>
+                <li><a href="/pages/Register.html">Register</a></li>
+            </ul>
+        </li>
+        <li><a href="/pages/quiz.html">Quiz</a></li>
+    </ul>
+  </header>
+  <section class="section">
+    <div class="container container--border container--big">
+        <div class="content">
+            <div class="content__title">
+                Login
+            </div>
+            <div class="content content__description">
+                <form class="content__text">
+                    <label class="registration__label" for="username">Username:</label>
+                    <input class="registration__input" type="text" name="username" required>
+
+                    <label class="registration__label" for="password">Password:</label>
+                    <div class="password-input-container">
+                        <input class="registration__input" type="password" name="password" required minlength="6">
+                    </div>
+
+                    <button class="content__button button button__inner" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+    
+  <footer class="footer">
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>

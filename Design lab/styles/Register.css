@@ -1,0 +1,13 @@
+.registration__label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.registration__input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

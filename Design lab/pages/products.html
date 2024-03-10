@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Електронні продукти</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/products.css">
+    <link rel = "stylesheet" href="/styles/modal.css">
+    <link rel = "stylesheet" href="/styles/Register.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/prod.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="/pages/index.html" class="logo">Electronic shop</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="/pages/index.html">Main</a></li>
+            <li><a href="/pages/products.html"class="active">Our products</a></li>
+            <li class="dropdown">
+                <a href="#" >Account</a>
+                <ul class="submenu">
+                    <li><a href="/pages/login.html">Login</a></li>
+                    <li><a href="/pages/Register.html">Register</a></li>
+                </ul>
+            </li>
+            <li><a href="/pages/quiz.html">Quiz</a></li>
+        </ul>
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="content content__description">
+              <form class = "content__text">
+              <h1>Зареєструйтеся</h1>
+                <label class="registration__label" for="username">Ім'я користувача:</label>
+                <input class="registration__input" type="text" name="username" required>
+      
+                <label class="registration__label" for="email">Електронна пошта:</label>
+                <input class="registration__input" type="email" name="email" required>
+      
+                <label class="registration__label" for="password">Пароль (мінімум 6 символів):</label>
+                <div class="password-input-container">
+                <input class="registration__input" type="password" name="password" required minlength="6">
+                </div>
+      
+                <label class="registration__label" for="confirm-password">Підтвердіть пароль:</label>
+                <input class="registration__input" type="password" name="confirm-password" required>
+      
+                <button class="content__button button button__inner" type="submit">Зареєструватися</button>
+              </form>
+            </div>
+        </div>
+      </div>
+        <form class="search__form search__inner">
+          <label class="search__form-label">Пошук товарів</label>
+          <input class="search__form-input" type="text" placeholder="Введіть товар" id="searchInput">
+          <button class="search__form-btn" id="srchBtn" type="button">Знайти</button>
+          <div class="dropdown" id="drop">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdown-content">
+            </div>
+          </div>
+          <div class="dropdown" id="dropSort">
+            <button class="dropbtn">Sorting</button>
+            <div class="dropdown-content" id="sort-content">
+                <a href="#">Name</a>
+                <a href="#">Price</a>
+                <a href="#">Link 3</a>
+            </div>
+          </div>
+        </form>
+    <div  id="product-list">
+        
+    </div>
+    
+    <div class="scroll-to-top" id="scrollToTop">&#9650;</div>
+</body>
+<script src="/scripts/arr.js" defer></script>
+<script src="/scripts/main.js"></script>
+<script src="/scripts/modal.js"></script>
+</html>

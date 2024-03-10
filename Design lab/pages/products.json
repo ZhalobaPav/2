@@ -1,0 +1,65 @@
+[
+  {
+      "name": "iPhone 13 Smartphone",
+      "image": "iphone13.jpg",
+      "price": 999,
+      "description": "The new iPhone 13 with a powerful processor and improved camera.",
+      "category": "Smartphones"
+  },
+  {
+      "name": "Dell XPS 15 Laptop",
+      "image": "dellxps15.jpg",
+      "price": 1499,
+      "description": "A business laptop with a high-quality display and powerful features.",
+      "category": "Laptops"
+  },
+  {
+      "name": "Samsung Galaxy Tab S7 Tablet",
+      "image": "samsungtabs7.jpg",
+      "price": 649,
+      "description": "Lightweight tablet with a large screen and stylus support.",
+      "category": "Tablets"
+  },
+  {
+      "name": "Canon EOS R5 Camera",
+      "image": "canoneosr5.jpg",
+      "price": 3499,
+      "description": "High-quality mirrorless camera for professional photographers.",
+      "category": "Cameras"
+  },
+  {
+      "name": "Apple Watch Series 7 Smartwatch",
+      "image": "applewatch7.jpg",
+      "price": 399,
+      "description": "Modern smartwatch with a large display and health features.",
+      "category": "Smartwatches"
+  },
+  {
+      "name": "Wacom Intuos Pro Graphic Tablet",
+      "image": "wacomintuos.jpg",
+      "price": 349,
+      "description": "The perfect tool for graphic designers and artists.",
+      "category": "Graphic Tablets"
+  },
+  {
+      "name": "Asus ROG Zephyrus G14 Gaming Laptop",
+      "image": "asusrog.jpg",
+      "price": 1499,
+      "description": "Gaming laptop with powerful graphics and processor.",
+      "category": "Laptops"
+  },
+  {
+      "name": "LG OLED CX TV",
+      "image": "lgoledcx.jpg",
+      "price": 1999,
+      "description": "4K OLED TV with stunning colors and contrast.",
+      "category": "Televisions"
+  },
+  {
+      "name": "Logitech MX Keys Wireless Keyboard",
+      "image": "logitechmxkeys.jpg",
+      "price": 99,
+      "description": "Ergonomic keyboard with backlighting and many features.",
+      "category": "Keyboards"
+  }
+]

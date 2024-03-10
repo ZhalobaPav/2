@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Інтернет-магазин Техніки</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/pages/index.html" class="logo">Electronic shop</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="/pages/index.html">Main</a></li>
+            <li><a href="/pages/products.html">Our products</a></li>
+            <li class="dropdown">
+                <a href="#">Account</a>
+                <ul class="submenu">
+                    <li><a href="/pages/login.html">Login</a></li>
+                    <li><a href="/pages/Register.html">Register</a></li>
+                </ul>
+            </li>
+            <li><a href="/pages/quiz.html" class="active">Quiz</a></li>
+        </ul>
+    </header>
+
+    <div class="survey">
+        <h3 class="survey__title">Залиште свій відгук</h3>
+        <form class="survey__form container">
+            <label class="survey__label" for="name">Ваше ім'я:</label>
+            <input class="survey__input" type="text" id="name" name="name" required>
+
+            <label class="survey__label" for="email">Ваша електронна пошта:</label>
+            <input class="survey__input" type="email" id="email" name="email" required>
+
+            <label class="survey__label" for="feedback">Ваші відгуки та пропозиції:</label>
+            <textarea class="survey__textarea" id="feedback" name="feedback" required></textarea>
+
+            <label class="survey__label" for="gender">Стать:</label>
+            <select class="survey__input" id="gender" name="gender">
+                <option value="male">Чоловік</option>
+                <option value="female">Жінка</option>
+                <option value="other">Інше</option>
+            </select>
+
+            <label class="survey__label">Оберіть ваш улюблене пристрій:</label>
+            <input type="radio" id="device1" name="favoriteDevice" value="device1">
+            <label for="device1">Смартфон</label><br>
+            <input type="radio" id="device2" name="favoriteDevice" value="device2">
+            <label for="device2">Ноутбук</label><br>
+            <input type="radio" id="device3" name="favoriteDevice" value="device3">
+            <label for="device3">Планшет</label><br>
+
+            <label class="survey__label">Оберіть найважлививіший елемент в пристрої:</label>
+            <input type="radio" id="feature1" name="feature" value="feature1">
+            <label for="feature1">Ціна</label><br>
+            <input type="radio" id="feature2" name="feature" value="feature2">
+            <label for="feature2">Потужність </label><br>
+            <input type="radio" id="feature3" name="feature" value="feature3">
+            <label for="feature3">Зручність</label><br>
+
+
+            <label class="survey__label">Виберіть ваші захоплення:</label>
+            <input type="checkbox" id="hobby1" name="hobbies" value="hobby1">
+            <label for="hobby1">Ігри</label><br>
+            <input type="checkbox" id="hobby2" name="hobbies" value="hobby2">
+            <label for="hobby2">Фотографія</label><br>
+            <input type="checkbox" id="hobby3" name="hobbies" value="hobby3">
+            <label for="hobby3">Музика</label><br>
+
+            <label class="survey__label">Які складові для Пк ви шукаєте?</label>
+            <input type="checkbox" id="detail1" name="details" value="detail1">
+            <label for="detail1">Процесор</label><br>
+            <input type="checkbox" id="detail2" name="details" value="detail2">
+            <label for="detail2">Відеокарта</label><br>
+            <input type="checkbox" id="detail3" name="details" value="detail3">
+            <label for="detail3">Оперативна пам'ять</label><br>
+            <input type="checkbox" id="detail4" name="details" value="detail4">
+            <label for="detail4">Охолоджуючі пристрої</label><br>
+
+            <button class="content__button button button__inner " type="submit">Надіслати</button>
+        </form>
+    </div>
+
+</body>
+</html>
